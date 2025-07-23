@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[300, 0]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,-124,0,0,2,-59"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="img7">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\nanua\OneDrive\Desktop\PROJECT\Simplebankingsystem\src\main\java\com\example\simplebankingsystem\atmimage.png"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="JLabel text =new JLabel(&quot;Select withdrawl amount&quot;);&#xa;text.setFont(new Font(&quot;System&quot;,Font.BOLD,16));&#xa;text.setForeground(Color.WHITE);&#xa;text.setBounds(175,340,300,30);&#xa;img7.add(text);&#xa;fiveh =new JButton(&quot;500&quot;);&#xa;fiveh.setBounds(145,405,120,30);&#xa;fiveh.addActionListener(this);&#xa;img7.add(fiveh);&#xa;twok =new JButton(&quot;2000&quot;);&#xa;twok.setBounds(145,445,120,30);&#xa;twok.addActionListener(this);&#xa;img7.add(twok);&#xa;fivek =new JButton(&quot;5000&quot;);&#xa;fivek.setBounds(145,485,120,30);&#xa;fivek.addActionListener(this);&#xa;img7.add(fivek);&#xa;onek =new JButton(&quot;1000&quot;);&#xa;onek.setBounds(335,405,120,30);&#xa;onek.addActionListener(this);&#xa;img7.add(onek);&#xa;tenk =new JButton(&quot;10000&quot;);&#xa;tenk.setBounds(335,445,120,30);&#xa;tenk.addActionListener(this);&#xa;img7.add(tenk);&#xa;fifteenk =new JButton(&quot;15000&quot;);&#xa;fifteenk.setBounds(335,485,120,30);&#xa;fifteenk.addActionListener(this);&#xa;img7.add(fifteenk);&#xa;exit7 =new JButton(&quot;Exit&quot;);&#xa;exit7.setBounds(335,525,120,30);&#xa;exit7.addActionListener(this);&#xa;img7.add(exit7);"/>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="-1" height="890"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
