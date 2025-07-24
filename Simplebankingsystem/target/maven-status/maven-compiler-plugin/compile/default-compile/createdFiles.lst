@@ -7,6 +7,7 @@ com\example\simplebankingsystem\Signupaccounttype$1.class
 com\example\simplebankingsystem\Mini_Statement.class
 com\example\simplebankingsystem\PinChange$1.class
 com\example\simplebankingsystem\FastCash$1.class
+com\example\simplebankingsystem\Signup1$4.class
 com\example\simplebankingsystem\Login$4.class
 com\example\simplebankingsystem\Signup1.class
 com\example\simplebankingsystem\CashWithdrawl.class
@@ -25,6 +26,7 @@ com\example\simplebankingsystem\FastCash.class
 com\example\simplebankingsystem\Login$2.class
 com\example\simplebankingsystem\PinChange.class
 com\example\simplebankingsystem\Signupaccounttype.class
+com\example\simplebankingsystem\Signup1$5.class
 com\example\simplebankingsystem\Deposit.class
 com\example\simplebankingsystem\Deposit$1.class
 com\example\simplebankingsystem\Mini_Statement$3.class

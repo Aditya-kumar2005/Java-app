@@ -32,45 +32,45 @@ public class PinChange extends javax.swing.JFrame implements ActionListener{
         javax.swing.JLabel img4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(300, 0));
+        setLocation(new java.awt.Point(10, 0));
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        img4.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage.png")); // NOI18N
-        getContentPane().add(img4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 890));
-        JLabel text =new JLabel("Reset PIN");
-        text.setFont(new Font("System",Font.BOLD,16));
+        img4.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage5.png")); // NOI18N
+        getContentPane().add(img4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 810));
+        JLabel text =new JLabel("Reset PIN:");
+        text.setFont(new Font("System",Font.BOLD,24));
         text.setForeground(Color.WHITE);
-        text.setBounds(175,340,300,30);
+        text.setBounds(235,310,300,30);
         img4.add(text);
-        JLabel text1 =new JLabel("PIN");
-        text1.setFont(new Font("System",Font.BOLD,12));
+        JLabel text1 =new JLabel("PIN:");
+        text1.setFont(new Font("System",Font.BOLD,24));
         text1.setForeground(Color.WHITE);
-        text1.setBounds(195,340,50,30);
+        text1.setBounds(195,370,50,30);
         img4.add(text1);
-        JLabel text2 =new JLabel("New PIN");
-        text2.setFont(new Font("System",Font.BOLD,12));
+        JLabel text2 =new JLabel("New PIN:");
+        text2.setFont(new Font("System",Font.BOLD,24));
         text2.setForeground(Color.WHITE);
-        text2.setBounds(195,360,50,30);
+        text2.setBounds(195,400,110,30);
         img4.add(text2);
         JTextField text4 =new JTextField();
-        text4.setFont(new Font("System",Font.BOLD,12));
+        text4.setFont(new Font("System",Font.BOLD,24));
         text4.setBackground(Color.WHITE);
         text4.setForeground(Color.BLACK);
-        text4.setBounds(255,340,100,30);
-        img4.add(text1);
+        text4.setBounds(355,370,300,30);
+        img4.add(text4);
         JTextField text5 =new JTextField();
-        text5.setFont(new Font("System",Font.BOLD,12));
+        text5.setFont(new Font("System",Font.BOLD,24));
         text5.setBackground(Color.WHITE);
         text5.setForeground(Color.BLACK);
-        text5.setBounds(255,360,100,30);
-        img4.add(text1);
+        text5.setBounds(355,400,300,30);
+        img4.add(text5);
         next6 =new JButton("Next");
-        next6.setBounds(145,525,120,30);
+        next6.setBounds(195,515,125,35);
         next6.addActionListener(this);
         img4.add(next6);
         exit6 =new JButton("Exit");
-        exit6.setBounds(335,525,120,30);
+        exit6.setBounds(565,515,125,35);
         exit6.addActionListener(this);
         img4.add(exit6);
 

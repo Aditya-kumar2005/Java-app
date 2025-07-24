@@ -6,6 +6,9 @@ package com.example.simplebankingsystem;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
 import javax.swing.*;
 
 /**
@@ -22,6 +25,7 @@ public class Deposit extends javax.swing.JFrame implements ActionListener{
     }
     JButton next,exit;
     JTextField text1;
+    int money;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -34,31 +38,30 @@ public class Deposit extends javax.swing.JFrame implements ActionListener{
         javax.swing.JLabel img1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(300, 0));
+        setLocation(new java.awt.Point(10, 0));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(713, 900));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        img1.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage.png")); // NOI18N
-        getContentPane().add(img1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 890));
-        JLabel text =new JLabel("Enter Amount you want to Deposit");
-        text.setFont(new Font("System",Font.BOLD,16));
+        img1.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage5.png")); // NOI18N
+        getContentPane().add(img1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 810));
+        JLabel text =new JLabel("Enter Amount you want to Deposit:");
+        text.setFont(new Font("System",Font.BOLD,24));
         text.setForeground(Color.WHITE);
-        text.setBounds(175,340,300,30);
+        text.setBounds(235,310,450,30);
         img1.add(text);
         JTextField text1 =new JTextField();
-        text1.setFont(new Font("System",Font.BOLD,16));
-        text1.setBackground(Color.BLUE);
-        text1.setForeground(Color.WHITE);
-        text1.setBounds(175,375,150,30);
+        text1.setFont(new Font("System",Font.BOLD,24));
+        text1.setBackground(Color.WHITE);
+        text1.setForeground(Color.BLACK);
+        text1.setBounds(235,345,150,30);
         img1.add(text1);
 
         next =new JButton("Next");
-        next.setBounds(145,525,120,30);
+        next.setBounds(195,515,125,35);
         next.addActionListener(this);
         img1.add(next);
         exit =new JButton("Exit");
-        exit.setBounds(335,525,120,30);
+        exit.setBounds(565,515,125,35);
         exit.addActionListener(this);
         img1.add(exit);
 
@@ -68,12 +71,39 @@ public class Deposit extends javax.swing.JFrame implements ActionListener{
     /**
      * @param args the command line arguments
      */
+//    String getmoney=text1.getText();
+    void _deposit(){
+        money=5000;
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String url="jdbc:mysql://localhost:3306/simplebankingsystem?zeroDateTimeBehavior=CONVERT_TO_NULL";
+            
+            Connection con=DriverManager.getConnection(url,"root","Adity@25062005");
+    
+            String sql ="select * from signupaccount where current=?";
+            Statement st=con.createStatement();
+//            int i=st.executeUpdate();
+//            if(int i>0){
+//                JOptionPane.showMessageDialog(this,"Your amount deposited successfully.");
+//            }
+//            else{
+//                System.out.println("Error occured");
+//            }
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        
+    }
     public void actionPerformed(ActionEvent ae){
             if(ae.getSource()==exit){
 //                System.exit(0);
                 Transaction t1=new Transaction();
                 t1.setVisible(true);
                 this.dispose();
+            }else if(ae.getSource()==next){
+//                _deposit();
+                JOptionPane.showMessageDialog(this,"deposit");
             }
         }
     public static void main(String args[]) {

@@ -160,18 +160,17 @@ public class Login extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI Emoji", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Welcome");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 30, 220, 92));
+        jLabel1.setText("Welcome :");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 30, 250, 92));
 
         pinnumber.setFont(new java.awt.Font("Yu Gothic", 1, 18)); // NOI18N
         pinnumber.setForeground(new java.awt.Color(0, 0, 0));
-        pinnumber.setText("PIN");
+        pinnumber.setText("PIN :");
         jPanel1.add(pinnumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 120, 50));
 
         pin.setBackground(new java.awt.Color(255, 255, 255));
         pin.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         pin.setForeground(new java.awt.Color(0, 0, 0));
-        pin.setText("2005");
         pin.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 3, true));
         pin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -185,7 +184,7 @@ public class Login extends javax.swing.JFrame {
 
         cardname.setFont(new java.awt.Font("Yu Gothic", 1, 18)); // NOI18N
         cardname.setForeground(new java.awt.Color(0, 0, 0));
-        cardname.setText("Card Number");
+        cardname.setText("Card Number :");
         jPanel1.add(cardname, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 140, 51));
 
         clear.setBackground(new java.awt.Color(0, 0, 0));
@@ -231,7 +230,6 @@ public class Login extends javax.swing.JFrame {
         cardno.setBackground(new java.awt.Color(255, 255, 255));
         cardno.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         cardno.setForeground(new java.awt.Color(0, 0, 0));
-        cardno.setText("XXXX-XXXX-XXXX-2005");
         cardno.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 3, true));
         cardno.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -273,9 +271,9 @@ public class Login extends javax.swing.JFrame {
         pin.setText("");
         pin.setText("");
     }//GEN-LAST:event_clearActionPerformed
-
+    String cnumber,pnumber;
     private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling code here
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url="jdbc:mysql://localhost:3306/simplebankingsystem?zeroDateTimeBehavior=CONVERT_TO_NULL";
@@ -283,17 +281,12 @@ public class Login extends javax.swing.JFrame {
             String sql3 = "SELECT * FROM signupaccount WHERE id = (SELECT MAX(id) FROM signupaccount)";
             PreparedStatement pst3 = con.prepareStatement(sql3);
             ResultSet rs3 = pst3.executeQuery();
-            String cnumber=cardno.getText();
-            String pnumber=pin.getText();
+            cnumber=cardno.getText();
+            pnumber=pin.getText();
             if (rs3.next()) {
-            if(cnumber.equals("")||pnumber.equals("")){
-            JOptionPane.showMessageDialog(this,"Provide complete information");
-            }else if(cnumber.equals(rs3.getString("card"))&&pnumber.equals(rs3.getString("pin"))){
-            JOptionPane.showMessageDialog(this,"Signin successfully..");
-            Transaction s3=new Transaction();
-            s3.setVisible(true);
-            this.dispose();
-            }
+              String checkcard=rs3.getString("card");
+              String checkpin=rs3.getString("pin");
+              validate(cnumber,pnumber,checkcard,checkpin);
            }
            else{
             JOptionPane.showMessageDialog(this,"Login Failed !!"+"\n Provide correct information");
@@ -303,7 +296,16 @@ public class Login extends javax.swing.JFrame {
                     System.out.print(e);
             }
     }//GEN-LAST:event_submitActionPerformed
-
+    void validate(String c1,String p1,String c2,String p2){
+        if(c1.equals("")||p1.equals("")){
+            JOptionPane.showMessageDialog(this,"Provide complete information");
+            }else if(c1.equals(c2)&&p1.equals(p2)){
+            JOptionPane.showMessageDialog(this,"Signin successfully..");
+            Transaction s3=new Transaction();
+            s3.setVisible(true);
+            this.dispose();
+            }
+    }
     private void cardnoMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cardnoMouseEntered
         // TODO add your handling code here:
     }//GEN-LAST:event_cardnoMouseEntered

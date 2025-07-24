@@ -34,30 +34,30 @@ public class CashWithdrawl extends javax.swing.JFrame implements ActionListener 
         javax.swing.JLabel img2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(300, 0));
+        setLocation(new java.awt.Point(10, 0));
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        img2.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage.png")); // NOI18N
-        getContentPane().add(img2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 890));
-        JLabel text =new JLabel("Enter Amount you want to Withdraw");
-        text.setFont(new Font("System",Font.BOLD,16));
+        img2.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage5.png")); // NOI18N
+        getContentPane().add(img2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 800));
+        JLabel text =new JLabel("Enter Amount you want to Withdraw:");
+        text.setFont(new Font("System",Font.BOLD,24));
         text.setForeground(Color.WHITE);
-        text.setBounds(175,340,300,30);
+        text.setBounds(235,310,450,30);
         img2.add(text);
         JTextField text1 =new JTextField();
-        text1.setFont(new Font("System",Font.BOLD,16));
-        text1.setBackground(Color.BLUE);
-        text1.setForeground(Color.WHITE);
-        text1.setBounds(175,375,150,30);
+        text1.setFont(new Font("System",Font.BOLD,24));
+        text1.setBackground(Color.WHITE);
+        text1.setForeground(Color.BLACK);
+        text1.setBounds(235,345,150,30);
         img2.add(text1);
 
         next1 =new JButton("Next");
-        next1.setBounds(145,525,120,30);
+        next1.setBounds(195,515,125,35);
         next1.addActionListener(this);
         img2.add(next1);
         exit1 =new JButton("Exit");
-        exit1.setBounds(335,525,120,30);
+        exit1.setBounds(565,515,125,35);
         exit1.addActionListener(this);
         img2.add(exit1);
 

@@ -4,6 +4,7 @@
  */
 package com.example.simplebankingsystem;
 
+
 import java.sql.*;
 
 /**
@@ -16,10 +17,11 @@ public class connec {
     public connec(){
         try{
            String url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=CONVERT_TO_NULL";
-           c=DriverManager.getConnection(url,"root","Adity@25062005"); 
+           c=DriverManager.getConnection(url,"root","Adity@25062005");
+           s=c.createStatement();
         }
         catch(Exception e){
-           
+           System.out.print(e);
         }
     }
 }

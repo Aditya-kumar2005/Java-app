@@ -53,7 +53,7 @@ public class Mini_Statement extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 660, 120, 40));
+        jPanel5.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 690, 120, 40));
 
         jTable1.setBackground(new java.awt.Color(255, 255, 255));
         jTable1.setForeground(new java.awt.Color(0, 0, 0));
@@ -62,10 +62,26 @@ public class Mini_Statement extends javax.swing.JFrame {
                 {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
                 {null, null, null, null}
             },
             new String [] {
-                "Date", "Year", "Transaction", "Amount"
+                "Date", "Time", "Transaction", "Amount"
             }
         ) {
             Class[] types = new Class [] {
@@ -77,31 +93,42 @@ public class Mini_Statement extends javax.swing.JFrame {
             }
         });
         jTable1.setColumnSelectionAllowed(true);
+        jTable1.setRowHeight(25);
+        jTable1.setRowMargin(5);
+        jTable1.setShowGrid(false);
         jScrollPane1.setViewportView(jTable1);
         jTable1.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setMinWidth(100);
+            jTable1.getColumnModel().getColumn(0).setMaxWidth(150);
+            jTable1.getColumnModel().getColumn(1).setMinWidth(100);
+            jTable1.getColumnModel().getColumn(1).setMaxWidth(150);
+            jTable1.getColumnModel().getColumn(3).setMinWidth(120);
+            jTable1.getColumnModel().getColumn(3).setMaxWidth(150);
+        }
 
-        jPanel5.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 690, 470));
+        jPanel5.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 690, 460));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel12.setText("Mini Statement");
-        jPanel5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 390, 50));
+        jLabel12.setText("Mini Statement :");
+        jPanel5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 390, 50));
 
         cardno.setBackground(new java.awt.Color(255, 255, 255));
-        cardno.setFont(new java.awt.Font("Segoe UI Historic", 1, 18)); // NOI18N
+        cardno.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
         cardno.setForeground(new java.awt.Color(0, 0, 0));
         cardno.setText("44444");
-        jPanel5.add(cardno, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 570, 130, 40));
+        jPanel5.add(cardno, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 620, 130, 40));
 
         cardno11.setBackground(new java.awt.Color(255, 255, 255));
-        cardno11.setFont(new java.awt.Font("Segoe UI Historic", 1, 18)); // NOI18N
+        cardno11.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
         cardno11.setForeground(new java.awt.Color(0, 0, 0));
         cardno11.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         cardno11.setText("Your current amount  is :=>");
-        jPanel5.add(cardno11, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 570, 240, 40));
+        jPanel5.add(cardno11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 620, 330, 40));
 
-        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 770));
+        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 690, 790));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

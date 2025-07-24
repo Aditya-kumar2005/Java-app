@@ -32,43 +32,43 @@ public class FastCash extends javax.swing.JFrame implements ActionListener {
         javax.swing.JLabel img7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(300, 0));
+        setLocation(new java.awt.Point(10, 0));
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        img7.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage.png")); // NOI18N
-        getContentPane().add(img7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 890));
-        JLabel text =new JLabel("Select withdrawl amount");
-        text.setFont(new Font("System",Font.BOLD,16));
+        img7.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage5.png")); // NOI18N
+        getContentPane().add(img7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 810));
+        JLabel text =new JLabel("Select withdrawl amount:");
+        text.setFont(new Font("System",Font.BOLD,24));
         text.setForeground(Color.WHITE);
-        text.setBounds(175,340,300,30);
+        text.setBounds(255,310,400,30);
         img7.add(text);
         fiveh =new JButton("500");
-        fiveh.setBounds(145,405,120,30);
+        fiveh.setBounds(195,370,125,35);
         fiveh.addActionListener(this);
         img7.add(fiveh);
         twok =new JButton("2000");
-        twok.setBounds(145,445,120,30);
+        twok.setBounds(195,420,125,35);
         twok.addActionListener(this);
         img7.add(twok);
         fivek =new JButton("5000");
-        fivek.setBounds(145,485,120,30);
+        fivek.setBounds(195,470,125,35);
         fivek.addActionListener(this);
         img7.add(fivek);
         onek =new JButton("1000");
-        onek.setBounds(335,405,120,30);
+        onek.setBounds(565,370,125,35);
         onek.addActionListener(this);
         img7.add(onek);
         tenk =new JButton("10000");
-        tenk.setBounds(335,445,120,30);
+        tenk.setBounds(565,420,125,35);
         tenk.addActionListener(this);
         img7.add(tenk);
         fifteenk =new JButton("15000");
-        fifteenk.setBounds(335,485,120,30);
+        fifteenk.setBounds(565,470,125,35);
         fifteenk.addActionListener(this);
         img7.add(fifteenk);
         exit7 =new JButton("Exit");
-        exit7.setBounds(335,525,120,30);
+        exit7.setBounds(565,520,125,35);
         exit7.addActionListener(this);
         img7.add(exit7);
 

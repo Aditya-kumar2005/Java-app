@@ -84,6 +84,8 @@ public class Signup3 extends javax.swing.JFrame {
         services1 = new javax.swing.JLabel();
         pinname = new javax.swing.JLabel();
         accounttype1 = new javax.swing.JLabel();
+        jLabel133 = new javax.swing.JLabel();
+        mnname1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(300, 0));
@@ -97,52 +99,52 @@ public class Signup3 extends javax.swing.JFrame {
         jLabel114.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel114.setForeground(new java.awt.Color(0, 0, 0));
         jLabel114.setText("Date of Birth :");
-        jPanel5.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 100, 20));
+        jPanel5.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 100, 20));
 
         jLabel115.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel115.setForeground(new java.awt.Color(0, 0, 0));
         jLabel115.setText("Name :");
-        jPanel5.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 110, 20));
+        jPanel5.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 110, 20));
 
         jLabel116.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel116.setForeground(new java.awt.Color(0, 0, 0));
         jLabel116.setText("Father's Name :");
-        jPanel5.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 110, 20));
+        jPanel5.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 110, 20));
 
         jLabel117.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel117.setForeground(new java.awt.Color(0, 0, 0));
         jLabel117.setText("Gender :");
-        jPanel5.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, 100, 20));
+        jPanel5.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 100, 20));
 
         jLabel118.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel118.setForeground(new java.awt.Color(0, 0, 0));
         jLabel118.setText("Martial Status :");
-        jPanel5.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 140, 100, 20));
+        jPanel5.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, 100, 20));
 
         jLabel119.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel119.setForeground(new java.awt.Color(0, 0, 0));
         jLabel119.setText("Address :");
-        jPanel5.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 170, 100, 20));
+        jPanel5.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, 100, 20));
 
         jLabel120.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel120.setForeground(new java.awt.Color(0, 0, 0));
         jLabel120.setText("City :");
-        jPanel5.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 200, 100, 20));
+        jPanel5.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 100, 20));
 
         jLabel121.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel121.setForeground(new java.awt.Color(0, 0, 0));
         jLabel121.setText("Pin code  :");
-        jPanel5.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 230, 100, 20));
+        jPanel5.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 220, 100, 20));
 
         jLabel122.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel122.setForeground(new java.awt.Color(0, 0, 0));
         jLabel122.setText("State :");
-        jPanel5.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, 100, 20));
+        jPanel5.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 250, 100, 20));
 
         jLabel123.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel123.setForeground(new java.awt.Color(0, 0, 0));
         jLabel123.setText("Email Address :");
-        jPanel5.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 110, 20));
+        jPanel5.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 110, 20));
 
         jButton9.setBackground(new java.awt.Color(0, 0, 0));
         jButton9.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
@@ -153,7 +155,7 @@ public class Signup3 extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 680, 140, 40));
+        jPanel5.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 680, 140, 40));
 
         jButton10.setBackground(new java.awt.Color(0, 0, 0));
         jButton10.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
@@ -164,7 +166,7 @@ public class Signup3 extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 680, 120, 40));
+        jPanel5.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 680, 120, 40));
 
         jLabel124.setFont(new java.awt.Font("Modern No. 20", 1, 48)); // NOI18N
         jLabel124.setForeground(new java.awt.Color(0, 0, 0));
@@ -173,174 +175,183 @@ public class Signup3 extends javax.swing.JFrame {
 
         name.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         name.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 140, 220, 20));
+        jPanel5.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, 180, 20));
 
         dob.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         dob.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(dob, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 200, 220, 20));
+        jPanel5.add(dob, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 180, 20));
 
         fname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         fname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, 220, 20));
+        jPanel5.add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, 180, 20));
 
         ename.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         ename.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(ename, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 260, 220, 20));
+        jPanel5.add(ename, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, 180, 20));
 
         gname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         gname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(gname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, 220, 20));
+        jPanel5.add(gname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, 180, 20));
 
         aname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         aname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(aname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 170, 270, 20));
+        jPanel5.add(aname, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 160, 240, 20));
 
         msname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         msname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(msname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 140, 270, 20));
+        jPanel5.add(msname, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 130, 240, 20));
 
         pcname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         pcname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(pcname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 230, 270, 20));
+        jPanel5.add(pcname, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 220, 240, 20));
 
         cname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         cname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(cname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 200, 270, 20));
+        jPanel5.add(cname, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, 240, 20));
 
         yuku4.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         yuku4.setForeground(new java.awt.Color(0, 0, 0));
         yuku4.setText("Income :");
-        jPanel5.add(yuku4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 540, 90, 20));
+        jPanel5.add(yuku4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 530, 90, 20));
 
         fgu4.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         fgu4.setForeground(new java.awt.Color(0, 0, 0));
         fgu4.setText("Religion :");
-        jPanel5.add(fgu4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 480, 100, 20));
+        jPanel5.add(fgu4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 470, 100, 20));
 
         yfijuy4.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         yfijuy4.setForeground(new java.awt.Color(0, 0, 0));
         yfijuy4.setText("Category :");
-        jPanel5.add(yfijuy4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 510, 110, 20));
+        jPanel5.add(yfijuy4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 500, 110, 20));
 
         jLabel125.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel125.setForeground(new java.awt.Color(0, 0, 0));
         jLabel125.setText("Educational");
-        jPanel5.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 570, 100, 20));
+        jPanel5.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 560, 100, 20));
 
         jLabel126.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel126.setForeground(new java.awt.Color(0, 0, 0));
         jLabel126.setText("Occupation :");
-        jPanel5.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 620, 90, 20));
+        jPanel5.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 610, 90, 20));
 
         jLabel127.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel127.setForeground(new java.awt.Color(0, 0, 0));
         jLabel127.setText("Pan number : ");
-        jPanel5.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 480, 110, 20));
+        jPanel5.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 470, 110, 20));
 
         jLabel128.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel128.setForeground(new java.awt.Color(0, 0, 0));
         jLabel128.setText("Aadhaar number :");
-        jPanel5.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 510, 130, 20));
+        jPanel5.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 130, 20));
 
         jLabel129.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel129.setForeground(new java.awt.Color(0, 0, 0));
         jLabel129.setText("Senior citizen :");
-        jPanel5.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 540, 120, 20));
+        jPanel5.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 540, 120, 20));
 
         jLabel130.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel130.setForeground(new java.awt.Color(0, 0, 0));
         jLabel130.setText("Existing account :");
-        jPanel5.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 570, 130, 20));
+        jPanel5.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 570, 130, 20));
 
         jLabel131.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel131.setForeground(new java.awt.Color(0, 0, 0));
         jLabel131.setText("Qualification :");
-        jPanel5.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 590, 100, 20));
+        jPanel5.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 580, 100, 20));
 
         jSeparator9.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jPanel5.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 460, 900, 10));
+        jPanel5.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 450, 780, 10));
 
         sname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         sname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(sname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 260, 270, 20));
+        jPanel5.add(sname, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 250, 240, 20));
 
         catname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         catname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(catname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 510, 220, 20));
+        jPanel5.add(catname, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 500, 220, 20));
 
         rname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         rname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(rname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 480, 220, 20));
+        jPanel5.add(rname, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 470, 220, 20));
 
         eqname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         eqname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(eqname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 580, 220, 20));
+        jPanel5.add(eqname, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 570, 220, 20));
 
         iname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         iname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(iname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 540, 220, 20));
+        jPanel5.add(iname, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 530, 220, 20));
 
         anname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         anname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(anname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 510, 270, 20));
+        jPanel5.add(anname, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 250, 20));
 
         pnname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         pnname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(pnname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 480, 270, 20));
+        jPanel5.add(pnname, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 470, 250, 20));
 
         exname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         exname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(exname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 570, 270, 20));
+        jPanel5.add(exname, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 570, 250, 20));
 
         scname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         scname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(scname, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 540, 270, 20));
+        jPanel5.add(scname, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 530, 250, 20));
 
         oname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         oname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(oname, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 620, 220, 20));
+        jPanel5.add(oname, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 610, 220, 20));
 
         jSeparator10.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 910, 10));
+        jPanel5.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 770, 10));
 
         jLabel132.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel132.setForeground(new java.awt.Color(0, 0, 0));
         jLabel132.setText("Account-type");
-        jPanel5.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, 100, 20));
+        jPanel5.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 100, 20));
 
         cardno1.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         cardno1.setForeground(new java.awt.Color(0, 0, 0));
         cardno1.setText("Card number");
-        jPanel5.add(cardno1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 310, 100, 20));
+        jPanel5.add(cardno1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 100, 20));
 
         jLabel134.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel134.setForeground(new java.awt.Color(0, 0, 0));
         jLabel134.setText("Services");
-        jPanel5.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, 100, 20));
+        jPanel5.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 100, 20));
 
         jLabel135.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
         jLabel135.setForeground(new java.awt.Color(0, 0, 0));
         jLabel135.setText("PIN");
-        jPanel5.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 370, 100, 20));
+        jPanel5.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, 100, 20));
 
         cardno.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         cardno.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(cardno, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 310, 310, 20));
+        jPanel5.add(cardno, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 300, 310, 20));
 
         services1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         services1.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(services1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 400, 690, 20));
+        jPanel5.add(services1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 620, 20));
 
         pinname.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         pinname.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(pinname, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 370, 220, 20));
+        jPanel5.add(pinname, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, 220, 20));
 
         accounttype1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         accounttype1.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(accounttype1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 340, 350, 20));
+        jPanel5.add(accounttype1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 330, 350, 20));
 
-        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 780));
+        jLabel133.setFont(new java.awt.Font("Segoe UI Emoji", 1, 14)); // NOI18N
+        jLabel133.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel133.setText("Mobile number");
+        jPanel5.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 610, 130, 20));
+
+        mnname1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        mnname1.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel5.add(mnname1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 610, 250, 20));
+
+        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, 780));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -378,7 +389,8 @@ public class Signup3 extends javax.swing.JFrame {
             aname.setText(rs1.getString("address"));
             cname.setText(rs1.getString("city"));
             pcname.setText(rs1.getString("pin_code"));
-            sname.setText(rs1.getString("state"));       
+            sname.setText(rs1.getString("state"));
+            mnname1.setText(rs1.getString("mobile"));
               }
             String sql2 = "SELECT * FROM sigup1 WHERE id = (SELECT MAX(id) FROM sigup1)";
             PreparedStatement pst2 = con.prepareStatement(sql2);
@@ -482,11 +494,13 @@ public class Signup3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel130;
     private javax.swing.JLabel jLabel131;
     private javax.swing.JLabel jLabel132;
+    private javax.swing.JLabel jLabel133;
     private javax.swing.JLabel jLabel134;
     private javax.swing.JLabel jLabel135;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JSeparator jSeparator10;
     private javax.swing.JSeparator jSeparator9;
+    private javax.swing.JLabel mnname1;
     private javax.swing.JLabel msname;
     private javax.swing.JLabel name;
     private javax.swing.JLabel oname;

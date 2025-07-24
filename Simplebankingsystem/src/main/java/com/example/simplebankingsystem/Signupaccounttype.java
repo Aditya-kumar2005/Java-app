@@ -63,6 +63,7 @@ public class Signupaccounttype extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jSeparator11 = new javax.swing.JSeparator();
 
         javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
         jDialog1.getContentPane().setLayout(jDialog1Layout);
@@ -91,7 +92,7 @@ public class Signupaccounttype extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 660, 140, 40));
+        jPanel5.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 640, 140, 40));
 
         jButton10.setBackground(new java.awt.Color(0, 0, 0));
         jButton10.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
@@ -102,24 +103,24 @@ public class Signupaccounttype extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 660, 120, 40));
+        jPanel5.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 640, 130, 40));
 
         jSeparator9.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jPanel5.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 460, 690, 10));
+        jPanel5.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 400, 690, 10));
 
         jSeparator10.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 690, 10));
+        jPanel5.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 690, 10));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel12.setText("Page 3 : Account Details");
-        jPanel5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 390, 50));
+        jLabel12.setText("Page 3 : Account Details :");
+        jPanel5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, 390, 50));
 
         jLabel20.setFont(new java.awt.Font("Segoe UI Emoji", 1, 24)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(0, 0, 0));
         jLabel20.setText("Services Required :");
-        jPanel5.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 480, 220, 30));
+        jPanel5.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 420, 220, 30));
 
         sa.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(sa);
@@ -133,7 +134,7 @@ public class Signupaccounttype extends javax.swing.JFrame {
         ca.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         ca.setForeground(new java.awt.Color(0, 0, 0));
         ca.setText("Current Account");
-        jPanel5.add(ca, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, -1, -1));
+        jPanel5.add(ca, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, -1, -1));
 
         fda.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(fda);
@@ -147,7 +148,7 @@ public class Signupaccounttype extends javax.swing.JFrame {
         rda.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         rda.setForeground(new java.awt.Color(0, 0, 0));
         rda.setText("Recurring Deposit Account");
-        jPanel5.add(rda, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 230, -1, -1));
+        jPanel5.add(rda, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 210, -1, -1));
 
         jLabel24.setFont(new java.awt.Font("Segoe UI Emoji", 1, 24)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(0, 0, 0));
@@ -158,83 +159,88 @@ public class Signupaccounttype extends javax.swing.JFrame {
         jLabel25.setFont(new java.awt.Font("Segoe UI Emoji", 1, 24)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(0, 0, 0));
         jLabel25.setText("PIN :");
-        jPanel5.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 390, 160, 30));
+        jPanel5.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, 160, 30));
 
         es.setBackground(new java.awt.Color(255, 255, 255));
         es.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         es.setForeground(new java.awt.Color(0, 0, 0));
         es.setText("E-Statements");
-        jPanel5.add(es, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 560, 150, 30));
+        jPanel5.add(es, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, 150, 30));
 
         email.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup2.add(email);
         email.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         email.setForeground(new java.awt.Color(0, 0, 0));
         email.setText("Email Alerts");
-        jPanel5.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 520, 150, 30));
+        jPanel5.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 460, 150, 30));
 
         mobile.setBackground(new java.awt.Color(255, 255, 255));
         mobile.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         mobile.setForeground(new java.awt.Color(0, 0, 0));
         mobile.setText("Mobile Banking");
-        jPanel5.add(mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 560, 150, 30));
+        jPanel5.add(mobile, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 500, 150, 30));
 
         atmcard.setBackground(new java.awt.Color(255, 255, 255));
         atmcard.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         atmcard.setForeground(new java.awt.Color(0, 0, 0));
         atmcard.setText("ATM CARD");
-        jPanel5.add(atmcard, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 520, 150, 30));
+        jPanel5.add(atmcard, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 460, 150, 30));
 
         internet.setBackground(new java.awt.Color(255, 255, 255));
         internet.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         internet.setForeground(new java.awt.Color(0, 0, 0));
         internet.setText("Internet Banking");
-        jPanel5.add(internet, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 560, 150, 30));
+        jPanel5.add(internet, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 500, 150, 30));
 
         cheque.setBackground(new java.awt.Color(255, 255, 255));
         cheque.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         cheque.setForeground(new java.awt.Color(0, 0, 0));
         cheque.setText("Cheque-book");
-        jPanel5.add(cheque, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 520, 150, 30));
+        jPanel5.add(cheque, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 460, 150, 30));
 
         jLabel26.setFont(new java.awt.Font("Segoe UI Emoji", 1, 24)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(0, 0, 0));
         jLabel26.setText("Card Number :");
-        jPanel5.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 320, 180, 30));
+        jPanel5.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 180, 30));
 
         pinno.setBackground(new java.awt.Color(255, 255, 255));
         pinno.setFont(new java.awt.Font("Segoe UI Historic", 1, 18)); // NOI18N
         pinno.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(pinno, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 380, 290, 40));
+        pinno.setText("XXXX");
+        jPanel5.add(pinno, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 340, 290, 30));
 
         cardno.setBackground(new java.awt.Color(255, 255, 255));
         cardno.setFont(new java.awt.Font("Segoe UI Historic", 1, 18)); // NOI18N
         cardno.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel5.add(cardno, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, 290, 40));
+        cardno.setText("XXXX-XXXX-XXXX-ABCD");
+        jPanel5.add(cardno, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 270, 290, 30));
 
         declare.setBackground(new java.awt.Color(255, 255, 255));
         declare.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         declare.setForeground(new java.awt.Color(0, 0, 0));
         declare.setText("I hereby declares that the above entered details correct to the best of my knowledge");
-        jPanel5.add(declare, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 610, 500, 20));
+        jPanel5.add(declare, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 590, 500, 20));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("It would appear in ATM-Card , ChequeBook and Statements");
-        jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 350, 330, 30));
+        jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, 330, 30));
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
         jLabel4.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("(Your 14-digits Card number:)");
-        jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, 210, 20));
+        jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 300, 210, 20));
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Sans Serif Collection", 0, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("(4-digits password)");
-        jPanel5.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 420, 210, 20));
+        jPanel5.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 370, 210, 20));
+
+        jSeparator11.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel5.add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 690, 10));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -285,12 +291,45 @@ public class Signupaccounttype extends javax.swing.JFrame {
     }
     Random r1=new Random();
     int Card(){
-        long cardnumber=Math.abs(r1.nextLong()%90000000L)+51040905000000000L;
+        retreivec();
+        int k,a1,a2;
+            k=Integer.parseInt(anname);
+            a1=k/100000000;
+            a2=k%100000000;
+//        long cardnumber=Math.abs(r1.nextLong()%90000000L)+51040905000000000L
+        int cardnumber=(a1*10000)+a2;
         return (int) cardnumber;
     }
     int Pin(){
-        long pinnumber=Math.abs(r1.nextLong()%90000000L)+51040905000000000L;
+//        long pinnumber=Math.abs(r1.nextLong()%90000000L)+51040905000000000L;
+        int pinnumber=2005;
         return (int) pinnumber;
+    }
+    String dob,mnname,pnname,anname;
+    void retreivec(){
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String url="jdbc:mysql://localhost:3306/simplebankingsystem?zeroDateTimeBehavior=CONVERT_TO_NULL";
+            Connection con=DriverManager.getConnection(url,"root","Adity@25062005");
+            String sql1 = "SELECT * FROM signup WHERE id = (SELECT MAX(id) FROM signup)";
+            PreparedStatement pst1 = con.prepareStatement(sql1);
+            ResultSet rs1 = pst1.executeQuery();
+
+            if (rs1.next()) {
+            mnname=rs1.getString("mobile");
+              }
+            String sql2 = "SELECT * FROM sigup1 WHERE id = (SELECT MAX(id) FROM sigup1)";
+            PreparedStatement pst2 = con.prepareStatement(sql2);
+            ResultSet rs2 = pst2.executeQuery();
+
+            if (rs2.next()) {
+            pnname=rs2.getString("pan");
+            anname=rs2.getString("adhar");
+            }
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
     }
     void showdetails(){    
     try{
@@ -438,6 +477,7 @@ public class Signupaccounttype extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JSeparator jSeparator10;
+    private javax.swing.JSeparator jSeparator11;
     private javax.swing.JSeparator jSeparator9;
     private javax.swing.JCheckBox mobile;
     private javax.swing.JLabel pinno;

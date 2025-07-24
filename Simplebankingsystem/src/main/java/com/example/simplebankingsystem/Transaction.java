@@ -34,44 +34,43 @@ public class Transaction extends javax.swing.JFrame implements ActionListener{
         javax.swing.JLabel img = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(300, 0));
-        setUndecorated(true);
+        setLocation(new java.awt.Point(10, 0));
         setSize(new java.awt.Dimension(900, 900));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        img.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage.png")); // NOI18N
-        getContentPane().add(img, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 900));
+        img.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage5.png")); // NOI18N
+        getContentPane().add(img, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1360, 810));
         JLabel text =new JLabel("Please select your Transaction:");
-        text.setFont(new Font("System",Font.BOLD,16));
+        text.setFont(new Font("System",Font.BOLD,24));
         text.setForeground(Color.WHITE);
-        text.setBounds(175,340,300,30);
+        text.setBounds(255,310,400,30);
         img.add(text);
         deposit =new JButton("Deposit");
-        deposit.setBounds(145,405,120,30);
+        deposit.setBounds(195,370,125,35);
         deposit.addActionListener(this);
         img.add(deposit);
         fast_cash =new JButton("Fast Cash");
-        fast_cash.setBounds(145,445,120,30);
+        fast_cash.setBounds(195,420,125,35);
         fast_cash.addActionListener(this);
         img.add(fast_cash);
         pin_change =new JButton("Pin Change");
-        pin_change.setBounds(145,485,120,30);
+        pin_change.setBounds(195,470,125,35);
         pin_change.addActionListener(this);
         img.add(pin_change);
         cash_withdrawl =new JButton("Cash Withdrawl");
-        cash_withdrawl.setBounds(335,405,120,30);
+        cash_withdrawl.setBounds(565,370,125,35);
         cash_withdrawl.addActionListener(this);
         img.add(cash_withdrawl);
         mini =new JButton("Mini Statements");
-        mini.setBounds(335,445,120,30);
+        mini.setBounds(565,420,125,35);
         mini.addActionListener(this);
         img.add(mini);
         balance =new JButton("Balance Enquiry");
-        balance.setBounds(335,485,120,30);
+        balance.setBounds(565,470,125,35);
         balance.addActionListener(this);
         img.add(balance);
         exit =new JButton("Exit");
-        exit.setBounds(335,525,120,30);
+        exit.setBounds(565,520,125,35);
         exit.addActionListener(this);
         img.add(exit);
 

@@ -74,7 +74,7 @@ public class Signup2 extends javax.swing.JFrame {
 
         jLabel12.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel12.setText("Page 2: Additional Details");
+        jLabel12.setText("Page 2: Additional Details :");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 390, 50));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI Emoji", 1, 18)); // NOI18N
@@ -359,6 +359,7 @@ public class Signup2 extends javax.swing.JFrame {
         Signupaccounttype s2=new Signupaccounttype();
         s2.setVisible(true);
         this.dispose();
+        s2.showdetails();
     }
     /**
      * @param args the command line arguments

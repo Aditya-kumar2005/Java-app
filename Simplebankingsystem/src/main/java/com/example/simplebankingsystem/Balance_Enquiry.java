@@ -32,25 +32,30 @@ public class Balance_Enquiry extends javax.swing.JFrame implements ActionListene
         javax.swing.JLabel img5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(300, 0));
+        setLocation(new java.awt.Point(10, 0));
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        img5.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage.png")); // NOI18N
-        getContentPane().add(img5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 890));
-        JLabel text7 =new JLabel("Enter Amount you want to Withdraw");
-        text7.setFont(new Font("System",Font.BOLD,16));
+        img5.setIcon(new javax.swing.ImageIcon("C:\\Users\\nanua\\OneDrive\\Desktop\\PROJECT\\Simplebankingsystem\\src\\main\\java\\com\\example\\simplebankingsystem\\atmimage5.png")); // NOI18N
+        getContentPane().add(img5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 810));
+        JLabel text7 =new JLabel("Your Current Amount is:");
+        text7.setFont(new Font("System",Font.BOLD,24));
         text7.setForeground(Color.WHITE);
-        text7.setBounds(175,340,300,30);
+        text7.setBounds(235,310,300,30);
         img5.add(text7);
-        JLabel text1 =new JLabel("");
-        text1.setFont(new Font("System",Font.BOLD,16));
+        JLabel text9 =new JLabel("==> Rs.");
+        text9.setFont(new Font("System",Font.BOLD,24));
+        text9.setForeground(Color.WHITE);
+        text9.setBounds(235,340,100,30);
+        img5.add(text9);
+        JLabel text1 =new JLabel("10005685679854533545");
+        text1.setFont(new Font("System",Font.BOLD,24));
         text1.setBackground(Color.BLUE);
         text1.setForeground(Color.WHITE);
-        text1.setBounds(175,375,150,30);
+        text1.setBounds(320,340,400,30);
         img5.add(text1);
         exit11 =new JButton("Exit");
-        exit11.setBounds(335,525,120,30);
+        exit11.setBounds(565,520,125,35);
         exit11.addActionListener(this);
         img5.add(exit11);
 

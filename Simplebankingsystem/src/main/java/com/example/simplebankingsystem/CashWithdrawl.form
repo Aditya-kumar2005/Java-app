@@ -4,7 +4,7 @@
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
-      <Point value="[300, 0]"/>
+      <Point value="[10, 0]"/>
     </Property>
     <Property name="undecorated" type="boolean" value="true"/>
   </Properties>
@@ -22,7 +22,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,68,0,0,2,-73"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,28,0,0,5,65"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -32,17 +32,17 @@
     <Component class="javax.swing.JLabel" name="img2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\nanua\OneDrive\Desktop\PROJECT\Simplebankingsystem\src\main\java\com\example\simplebankingsystem\atmimage.png"/>
+          <Image iconType="2" name="C:\Users\nanua\OneDrive\Desktop\PROJECT\Simplebankingsystem\src\main\java\com\example\simplebankingsystem\atmimage5.png"/>
         </Property>
       </Properties>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="JLabel text =new JLabel(&quot;Enter Amount you want to Withdraw&quot;);&#xa;text.setFont(new Font(&quot;System&quot;,Font.BOLD,16));&#xa;text.setForeground(Color.WHITE);&#xa;text.setBounds(175,340,300,30);&#xa;img2.add(text);&#xa;JTextField text1 =new JTextField();&#xa;text1.setFont(new Font(&quot;System&quot;,Font.BOLD,16));&#xa;text1.setBackground(Color.BLUE);&#xa;text1.setForeground(Color.WHITE);&#xa;text1.setBounds(175,375,150,30);&#xa;img2.add(text1);&#xa;&#xa;next1 =new JButton(&quot;Next&quot;);&#xa;next1.setBounds(145,525,120,30);&#xa;next1.addActionListener(this);&#xa;img2.add(next1);&#xa;exit1 =new JButton(&quot;Exit&quot;);&#xa;exit1.setBounds(335,525,120,30);&#xa;exit1.addActionListener(this);&#xa;img2.add(exit1);"/>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="JLabel text =new JLabel(&quot;Enter Amount you want to Withdraw:&quot;);&#xa;text.setFont(new Font(&quot;System&quot;,Font.BOLD,24));&#xa;text.setForeground(Color.WHITE);&#xa;text.setBounds(235,310,450,30);&#xa;img2.add(text);&#xa;JTextField text1 =new JTextField();&#xa;text1.setFont(new Font(&quot;System&quot;,Font.BOLD,24));&#xa;text1.setBackground(Color.WHITE);&#xa;text1.setForeground(Color.BLACK);&#xa;text1.setBounds(235,345,150,30);&#xa;img2.add(text1);&#xa;&#xa;next1 =new JButton(&quot;Next&quot;);&#xa;next1.setBounds(195,515,125,35);&#xa;next1.addActionListener(this);&#xa;img2.add(next1);&#xa;exit1 =new JButton(&quot;Exit&quot;);&#xa;exit1.setBounds(565,515,125,35);&#xa;exit1.addActionListener(this);&#xa;img2.add(exit1);"/>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
       </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="690" height="890"/>
+          <AbsoluteConstraints x="0" y="0" width="1350" height="800"/>
         </Constraint>
       </Constraints>
     </Component>
